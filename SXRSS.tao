@@ -1,0 +1,39 @@
+change ele beginning e_tot @10.7075e9
+set ele sbend::* field_master =T
+set ele Vkicker::* field_master =T
+set ele Hkicker::* field_master =T
+change ele BCXSS1 b_field 0.4117
+change ele BCXSS2 b_field 0.4191
+change ele BCXSS3 b_field 0.4176
+change ele BCXSS4 b_field 0.4130
+change ele XCSX34 bl_kick 0.000018
+change ele XCSX35 bl_kick -0.000416
+change ele XCSX36 bl_kick 0.000128
+change ele XCSX37 bl_kick -0.000153
+change ele XCSX38 bl_kick 0.000074
+change ele YCSX34 bl_kick -0.000030
+change ele YCSX35 bl_kick 0.000068
+change ele YCSX36 bl_kick 0.000085
+change ele YCSX37 bl_kick -0.000068
+change ele YCSX38 bl_kick -0.000060
+change ele QSXH34 b1_gradient 3.000874
+change ele QSXH35 b1_gradient -2.999865
+change ele QSXH36 b1_gradient 3.000783
+change ele QSXH37 b1_gradient -2.999727
+change ele QSXH38 b1_gradient 3.000967
+set dat orbit.profx[1]|meas =0.0085468
+set dat orbit.profy[1]|meas =0.0049495
+set dat orbit.profx[2]|meas =-0.0136256
+set dat orbit.profy[2]|meas =0.0129235
+set dat orbit.profx[3]|meas =-0.0302813
+set dat orbit.profy[3]|meas =0.0071732
+set dat orbit.profx[4]|meas =-0.0176419
+set dat orbit.profy[4]|meas =0.0165389
+set var trim[1]|meas = 0.000000
+set var trim[2]|meas = 0.000013
+set var trim[3]|meas = 0.000004
+set var trim[4]|meas = 0.000019
+scale
+use var *
+set dat loss|meas =0
+set global n_opti_loops=30

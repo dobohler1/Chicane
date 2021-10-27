@@ -1,0 +1,48 @@
+ BCXSS1[BL_HKICK] =  6.13726150799533053E-006
+ BCXSS2[BL_HKICK] =  7.17915393061691546E-006
+ BCXSS3[BL_HKICK] =  7.82838122812552135E-006
+ BCXSS4[BL_HKICK] =  1.04012653137531018E-005
+ 
+ end_file
+ 
+ 
+ ! Top 10
+ 
+ Constraints                       Ref_Ele    Start_Ele   Ele/S    Meas-or-Lim    Model       Merit      Max_Loc
+ orbit.profx[3]  orbit.x <target>                        RFBSX36   -3.0281E-02   4.2484E-05  9.195E-06
+ orbit.profx[4]  orbit.x <target>                        RFBSX37   -1.7642E-02   5.7478E-05  3.133E-06
+ orbit.profy[4]  orbit.y <target>                        RFBSX37    1.6539E-02  -2.0751E-05  2.742E-06
+ orbit.profx[2]  orbit.x <target>                        RFBSX35   -1.3626E-02  -4.9011E-06  1.855E-06
+ orbit.profy[2]  orbit.y <target>                        RFBSX35    1.2923E-02   3.4748E-06  1.669E-06
+ orbit.profx[1]  orbit.x <target>                        RFBSX34    8.5468E-03  -6.7152E-06  7.316E-07
+ orbit.profy[3]  orbit.y <target>                        RFBSX36    7.1732E-03  -3.3259E-06  5.150E-07
+ orbit.profy[1]  orbit.y <target>                        RFBSX34    4.9495E-03   1.2995E-07  2.450E-07
+ trim[4]         BCXSS4[BL_HKICK]                        1636.01    1.9000E-05   1.0401E-05  7.394E-08
+ trim[1]         BCXSS1[BL_HKICK]                        1633.10    0.0000E+00   6.1373E-06  3.767E-08
+ Constraints                       Ref_Ele    Start_Ele   Ele/S    Meas-or-Lim    Model       Merit      Max_Loc
+ 
+  figure of merit: 2.024648E-05
+ 
+ List of non-zero contributors to the Merit Function:
+ Name                                          Merit           Sigma [= sqrt(Chi^2/N)]
+ orbit.profx                                   1.4915E-05      1.9310E-02
+ orbit.profy                                   5.1715E-06      1.1370E-02
+ trim                                          1.6014E-07
+ 
+ Constraints                              Ref_Ele    Start_Ele   Ele/S    Meas-or-Lim    Model       Merit      Max_Loc
+ orbit.profx[1]  orbit.x <target>                               RFBSX34    8.5468E-03  -6.7152E-06  7.316E-07
+ orbit.profx[2]  orbit.x <target>                               RFBSX35   -1.3626E-02  -4.9011E-06  1.855E-06
+ orbit.profx[3]  orbit.x <target>                               RFBSX36   -3.0281E-02   4.2484E-05  9.195E-06
+ orbit.profx[4]  orbit.x <target>                               RFBSX37   -1.7642E-02   5.7478E-05  3.133E-06
+ orbit.profy[1]  orbit.y <target>                               RFBSX34    4.9495E-03   1.2995E-07  2.450E-07
+ orbit.profy[2]  orbit.y <target>                               RFBSX35    1.2923E-02   3.4748E-06  1.669E-06
+ orbit.profy[3]  orbit.y <target>                               RFBSX36    7.1732E-03  -3.3259E-06  5.150E-07
+ orbit.profy[4]  orbit.y <target>                               RFBSX37    1.6539E-02  -2.0751E-05  2.742E-06
+ loss[1]         unstable.orbit <target>                                   0.0000E+00   0.0000E+00  0.000E+00
+ trim[1]         BCXSS1[BL_HKICK]                               1633.10    0.0000E+00   6.1373E-06  3.767E-08
+ trim[2]         BCXSS2[BL_HKICK]                               1634.30    1.3000E-05   7.1792E-06  3.388E-08
+ trim[3]         BCXSS3[BL_HKICK]                               1634.82    4.0000E-06   7.8284E-06  1.466E-08
+ trim[4]         BCXSS4[BL_HKICK]                               1636.01    1.9000E-05   1.0401E-05  7.394E-08
+ Constraints                              Ref_Ele    Start_Ele   Ele/S    Meas-or-Lim    Model       Merit      Max_Loc
+ 
+  figure of merit: 2.024648E-05
